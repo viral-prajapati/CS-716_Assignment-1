@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 5rem;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    /* background-color: #007836; */
+    background-image: url("banner_95.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* img {
+    height: auto;
+    opacity: 0.2;
+} */
+
+header h1, header h2 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    text-decoration:underline;
+}
+
+nav ul li a {
+    /* color: #FFC82E; */
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+li{
+    padding-left: 1rem;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #007836;
+}
+
+/* h3 {
+    color: #FFC82E;
+} */
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#footer {
+    background-color: #007836;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    /* position: fixed; */
+    /* width: 100%; */
+    bottom: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    color: #007836;
+}
+
+form input, form textarea {
+    margin-bottom: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+form button {
+    background-color: #007836;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #FFC82E;
+}
