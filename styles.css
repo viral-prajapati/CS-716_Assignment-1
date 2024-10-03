@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0 5rem;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f9fac2;
 }
 
 header {
@@ -59,6 +59,25 @@ section {
     margin: 1rem;
     background-color: white;
     border-radius: 10px;
+}
+
+.apply-now {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.apply-button {
+    background-color: #FFC82E;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.apply-button:hover {
+    background-color: #007836;
 }
 
 h2 {
